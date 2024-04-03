@@ -1,0 +1,162 @@
+[
+  {
+    "ContainingType": "Endpoints.Controllers.BookController",
+    "Method": "CreateBook",
+    "RelativePath": "api/Book/CreateBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Endpoints.Entity.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BookController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Book/DeleteBook",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Endpoints.Entity.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BookController",
+    "Method": "GetBook",
+    "RelativePath": "api/Book/GetBook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BookController",
+    "Method": "GetBooks",
+    "RelativePath": "api/Book/GetBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BookController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Book/UpdateBook",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "Endpoints.Entity.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BooksCollectionController",
+    "Method": "CreateBooksCollection",
+    "RelativePath": "api/BooksCollection/CreateBooksCollection",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collection",
+        "Type": "Endpoints.Entity.BookCollectionCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BooksCollectionController",
+    "Method": "DeleteBooksCollection",
+    "RelativePath": "api/BooksCollection/DeleteBooksCollection",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BooksCollectionController",
+    "Method": "GetBooksCollection",
+    "RelativePath": "api/BooksCollection/GetBooksCollection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BooksCollectionController",
+    "Method": "GetBooksCollectionList",
+    "RelativePath": "api/BooksCollection/GetBooksCollectionList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Endpoints.Controllers.BooksCollectionController",
+    "Method": "UpdateBooksCollection",
+    "RelativePath": "api/BooksCollection/UpdateBooksCollection",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookCollection",
+        "Type": "Endpoints.Entity.BookCollection",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
