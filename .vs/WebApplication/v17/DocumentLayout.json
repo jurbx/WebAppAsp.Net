@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\M02410\\OneDrive - N\u00FCrnberger Baugruppe GmbH \u002B Co KG\\Dokumente\\C# Projects\\WebApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DB6D09-5B6B-4F8C-A637-29BDBA542701}|Endpoints\\Endpoints.csproj|c:\\users\\m02410\\onedrive - n\u00FCrnberger baugruppe gmbh \u002B co kg\\dokumente\\c# projects\\webapplication\\endpoints\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DB6D09-5B6B-4F8C-A637-29BDBA542701}|Endpoints\\Endpoints.csproj|solutionrelative:endpoints\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 576,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\M02410\\OneDrive - N\u00FCrnberger Baugruppe GmbH \u002B Co KG\\Dokumente\\C# Projects\\WebApplication\\Endpoints\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\M02410\\OneDrive - N\u00FCrnberger Baugruppe GmbH \u002B Co KG\\Dokumente\\C# Projects\\WebApplication\\Endpoints\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Endpoints\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:33:50.025Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
