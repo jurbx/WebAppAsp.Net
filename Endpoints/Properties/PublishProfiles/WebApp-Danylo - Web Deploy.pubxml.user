@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAC/UdJklDuEeu1L9HuKsVaAAAAAACAAAAAAAQZgAAAAEAACAAAAAu2pjwIHurmoEDk079LuUetfMJO5O/CwToeDUnZZ/eeAAAAAAOgAAAAAIAACAAAABUgQtOk283T6jJXwQkV4S+/9LnMHoYNk6WvUTf4D/PKoAAAABHZXEkEmblTp2Nf+l7BQhLgnNM/rpC4F0wC/FmXvCmRJBBDTKPVAHQWiQsQ/15uHVaJ+mKXgHFT+IbxAMqSyMzJD7epw0lcl2RsHnBcUGPGRhOt45vncKdRLj9D9nZ5wB0CNKH0LuxJAder5ZF21r3GcHL9rOj+hKRUAyJ403JBUAAAADqPQJp2e/0x31fHtxGi5KMIuuv8LG4khpMeKG9KikFRjtcXOr0A/9xGKGIFqnKoctcvb1SMBYtWTl8vCImEwNC</EncryptedPassword>
+    <History>True|2024-04-05T07:51:58.1285961Z;True|2024-04-04T16:35:19.7237072+02:00;True|2024-04-04T16:32:26.0398281+02:00;True|2024-04-04T16:31:36.8884520+02:00;True|2024-04-04T16:30:48.9220669+02:00;True|2024-04-04T16:27:45.7761788+02:00;True|2024-04-04T16:26:32.4128251+02:00;True|2024-04-04T16:15:45.6063065+02:00;True|2024-04-04T16:14:15.4666817+02:00;True|2024-04-04T16:05:54.1601370+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Endpoints.Entity.MyDBContext">
+      <Value>Data Source=endpointsdbserver.database.windows.net,1433%3bInitial Catalog=Endpoints_db%3bUser ID=danylo%3bPassword=Daniki123%25</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

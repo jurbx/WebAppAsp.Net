@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\M02410\OneDrive - Nürnberger Baugruppe GmbH + Co KG\Dokumente\C# Projects\WebApplication\Endpoints\obj\Debug\net8.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\M02410\OneDrive - Nürnberger Baugruppe GmbH + Co KG\Dokumente\C# Projects\WebApplication\Endpoints\obj\Debug\net8.0\PubTmp\EFSQLScripts\Endpoints.Entity.MyDBContext.sql" />
+</sitemanifest>

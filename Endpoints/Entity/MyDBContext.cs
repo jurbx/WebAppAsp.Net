@@ -11,10 +11,5 @@ namespace Endpoints.Entity
 
         }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-            //optionsBuilder.UseSqlServer(ConfigurationBinder.GetValue(typeof(string), "SQLServer"));
-        //}
-
     }
 }
