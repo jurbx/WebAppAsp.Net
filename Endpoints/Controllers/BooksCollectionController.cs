@@ -13,9 +13,9 @@ namespace Endpoints.Controllers
 
         [HttpGet]
         [Route(nameof(GetBooksCollection))]
-        public IActionResult GetBooksCollection(int id)
+        public async Task<IActionResult> GetBooksCollection(int id)
         {
-            var book = _db.BooksCollections.Include(m => m.Books).FirstOrDefault(x => x.Id == id);
+            var book = await _db.BooksCollections.Include(m => m.Books).FirstOrDefaultAsync(x => x.Id == id);
             if (book == null)
             {
                 return NotFound();

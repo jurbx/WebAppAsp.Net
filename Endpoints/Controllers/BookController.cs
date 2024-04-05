@@ -4,15 +4,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Endpoints.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
-    public class BookController(MyDBContext context) : ControllerBase
+    public class BookController : ControllerBase
     {
-        private readonly MyDBContext _db = context;
-
+        private readonly MyDBContext _db;
+        public BookController(MyDBContext context)
+        {
+            _db = context;
+        }
         [HttpGet]
         [Route(nameof(GetBooks))]
-        public IActionResult GetBooks(int limit)
+        public async Task<IActionResult> GetBooks(int limit)
         {
             ICollection<Book> books = limit != 0 ? _db.Books.Take(limit).ToList() : _db.Books.ToArray();
             if (books.Count == 0)
@@ -24,9 +28,9 @@ namespace Endpoints.Controllers
 
         [HttpGet]
         [Route(nameof(GetBook))]
-        public IActionResult GetBook(int id)
+        public async Task<IActionResult> GetBook(int id)
         {
-            var book = _db.Books.FirstOrDefault(x => x.Id == id);
+            var book = await _db.Books.FirstOrDefaultAsync(x => x.Id == id);
             if (book == null)
             {
                 return NotFound();
@@ -59,12 +63,12 @@ namespace Endpoints.Controllers
 
             return Ok(bookToUpdate);
         }
-        
+
         [HttpDelete]
         [Route(nameof(DeleteBook))]
-        public async Task<IActionResult> DeleteBook(Book book)
+        public async Task<IActionResult> DeleteBook(int id)
         {
-            var bookToUpdate = await _db.Books.SingleOrDefaultAsync(b => b.Id == book.Id);
+            var bookToUpdate = await _db.Books.SingleOrDefaultAsync(b => b.Id == id);
             if (bookToUpdate == null)
             {
                 return NotFound();
